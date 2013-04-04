@@ -1,0 +1,32 @@
+
+PODS:
+- AFNetworking (0.10.1)
+- ActionSheetPicker (0.0.1)
+- DCKeyValueObjectMapping (1.1)
+- ECSlidingViewController (0.9.0)
+- JSONKit (1.5pre)
+- Kiwi (2.0.6)
+- MBProgressHUD (0.6)
+- Reachability (3.0.0)
+
+DEPENDENCIES:
+- AFNetworking (~> 0.10)
+- ActionSheetPicker (~> 0.0)
+- DCKeyValueObjectMapping (= 1.1)
+- ECSlidingViewController (~> 0.9.0)
+- JSONKit (~> 1.4)
+- Kiwi
+- MBProgressHUD (~> 0.5)
+- Reachability (~> 3.0.0)
+
+SPEC CHECKSUMS:
+  AFNetworking: df1042246c17373b96f12f04bf5c6e1c25992cd4
+  ActionSheetPicker: f47931cfb6bc65230b323326964fccb4ad339f37
+  DCKeyValueObjectMapping: bc71bbada9d5d100daf75169c3f29060ebcfa530
+  ECSlidingViewController: 46cb6a6cc72e359a19d2f232728be08685450d90
+  JSONKit: 409734ab3407fce90ef7eaa95d7168f38d9a6601
+  MBProgressHUD: 9b55a90566fb5d07df0602f6fd9fa04510ad5d52
+  Reachability: 500bd76bf6cd8ff2c6fb715fc5f44ef6e4c024f2
+  Kiwi: 56082a80f942de4d10423d8d8a599ab30cf50228
+
+COCOAPODS: 0.16.4

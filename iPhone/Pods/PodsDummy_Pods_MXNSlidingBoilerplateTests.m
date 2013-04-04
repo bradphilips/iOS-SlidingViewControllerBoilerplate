@@ -1,0 +1,4 @@
+@interface PodsDummy_Pods_MXNSlidingBoilerplateTests : NSObject
+@end
+@implementation PodsDummy_Pods_MXNSlidingBoilerplateTests
+@end
