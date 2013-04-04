@@ -3,8 +3,8 @@ var passport = require('passport'),
     LocalStrategy = require('passport-local').Strategy;
 
 var users = [
-    { id: 1, username: 'brad', email: 'brad.t.philips@gmail.com', posId: 42 }, // user: brad, password: secure
-    { id: 2, username: 'test', email: 'test@example.com', posId: 33 } // user: test, password: mctester
+    { id: 1, username: 'brad', email: 'brad.t.philips@gmail.com' }, // user: brad, password: secure
+    { id: 2, username: 'test', email: 'test@example.com' } // user: test, password: mctester
 ];
 
 var passwords = [
