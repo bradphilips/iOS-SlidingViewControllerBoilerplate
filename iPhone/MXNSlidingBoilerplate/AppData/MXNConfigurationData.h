@@ -13,5 +13,6 @@
 + (MXNConfigurationData *)sharedConfiguration;
 
 @property (nonatomic, assign) BOOL isLoggedIn;
+@property (nonatomic, readonly, getter = url) NSString *url;
 
 @end

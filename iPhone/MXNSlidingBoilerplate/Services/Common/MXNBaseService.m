@@ -10,6 +10,7 @@
 
 #import "JSONKit.h"
 #import "AFJSONRequestOperation.h"
+#import "MXNConfigurationData.h"
 
 @implementation MXNBaseService
 
@@ -31,7 +32,7 @@
   NSString *path = [NSString stringWithFormat:@"http://%@%@", @"localhost:3000", resource];
 #else
   MXNConfigurationData *configuration = [MXNConfigurationData sharedConfiguration];
-  NSString *path = [NSString stringWithFormat:@"http://%@%@", configuration.serverIP, resource];
+  NSString *path = [NSString stringWithFormat:@"http://%@/%@", configuration.url, resource];
 #endif
   if ([parameters count] > 0) {
     NSMutableArray* parts = [NSMutableArray array];
