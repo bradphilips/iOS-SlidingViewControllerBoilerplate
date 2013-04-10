@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		12C8E5B8638549AAAA7DBC51 /* libPods-MXNSlidingBoilerplateTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 39823DE83F8F429DA8E5F251 /* libPods-MXNSlidingBoilerplateTests.a */; };
-		6EFEF4E151064E66A8C43FBB /* libPods-KMWareTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E71FE160065E4B42B18EF7E6 /* libPods-KMWareTests.a */; };
 		A7324325170D03E6005AC11F /* MXNAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A7324324170D03E6005AC11F /* MXNAppDelegate.m */; };
 		A7324328170D03F9005AC11F /* MXNModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A7324327170D03F9005AC11F /* MXNModel.m */; };
 		A732432B170D040F005AC11F /* MXNUser.m in Sources */ = {isa = PBXBuildFile; fileRef = A732432A170D040F005AC11F /* MXNUser.m */; };
@@ -53,6 +52,9 @@
 		A76634B216DF026B00E56AB0 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A76634B116DF026B00E56AB0 /* Icon.png */; };
 		A76634B416DF027500E56AB0 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A76634B316DF027500E56AB0 /* Icon@2x.png */; };
 		A7CBE63D170D07F8003FF73C /* MXNLoginRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = A7CBE63C170D07F8003FF73C /* MXNLoginRequest.m */; };
+		A7F8A83D1714DCD40068F04A /* MXNConfigurationDataSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = A7F8A83C1714DCD40068F04A /* MXNConfigurationDataSpec.m */; };
+		A7F8A83F1714DE270068F04A /* MXNConfigurationData.m in Sources */ = {isa = PBXBuildFile; fileRef = A74DD460170D0A2E007F676B /* MXNConfigurationData.m */; };
+		A7F8A8421714EBFF0068F04A /* MXNKiwiRedefines.m in Sources */ = {isa = PBXBuildFile; fileRef = A7F8A8411714EBFF0068F04A /* MXNKiwiRedefines.m */; };
 		A7F9FAE916DEEEF6008797E7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7F9FAE816DEEEF6008797E7 /* UIKit.framework */; };
 		A7F9FAEB16DEEEF6008797E7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7F9FAEA16DEEEF6008797E7 /* Foundation.framework */; };
 		A7F9FAED16DEEEF6008797E7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7F9FAEC16DEEEF6008797E7 /* CoreGraphics.framework */; };
@@ -130,6 +132,9 @@
 		A76634B316DF027500E56AB0 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
 		A7CBE63B170D07F8003FF73C /* MXNLoginRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MXNLoginRequest.h; path = MXNSlidingBoilerplate/Models/MXNLoginRequest.h; sourceTree = SOURCE_ROOT; };
 		A7CBE63C170D07F8003FF73C /* MXNLoginRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MXNLoginRequest.m; path = MXNSlidingBoilerplate/Models/MXNLoginRequest.m; sourceTree = SOURCE_ROOT; };
+		A7F8A83C1714DCD40068F04A /* MXNConfigurationDataSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MXNConfigurationDataSpec.m; path = MXNSlidingBoilerplateTests/AppData/MXNConfigurationDataSpec.m; sourceTree = SOURCE_ROOT; };
+		A7F8A8401714EBFF0068F04A /* MXNKiwiRedefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MXNKiwiRedefines.h; path = MXNSlidingBoilerplateTests/MXNKiwiRedefines.h; sourceTree = SOURCE_ROOT; };
+		A7F8A8411714EBFF0068F04A /* MXNKiwiRedefines.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MXNKiwiRedefines.m; path = MXNSlidingBoilerplateTests/MXNKiwiRedefines.m; sourceTree = SOURCE_ROOT; };
 		A7F9FAE516DEEEF6008797E7 /* MXNSlidingBoilerplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MXNSlidingBoilerplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7F9FAE816DEEEF6008797E7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A7F9FAEA16DEEEF6008797E7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -147,7 +152,6 @@
 				A75DEE6B16DEF11F006019EF /* SenTestingKit.framework in Frameworks */,
 				A75DEE6C16DEF11F006019EF /* UIKit.framework in Frameworks */,
 				A75DEE6D16DEF11F006019EF /* Foundation.framework in Frameworks */,
-				6EFEF4E151064E66A8C43FBB /* libPods-KMWareTests.a in Frameworks */,
 				12C8E5B8638549AAAA7DBC51 /* libPods-MXNSlidingBoilerplateTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -198,6 +202,7 @@
 			isa = PBXGroup;
 			children = (
 				A75DEE6F16DEF11F006019EF /* Supporting Files */,
+				A7F8A83E1714DCD90068F04A /* AppDataTests */,
 			);
 			name = MXNSlidingBoilerplateTests;
 			path = KMWareTests;
@@ -209,6 +214,8 @@
 				A7324379170D0647005AC11F /* InfoPlist.strings */,
 				A7324376170D061C005AC11F /* MXNSlidingBoilerplateTests-Info.plist */,
 				A7324377170D061C005AC11F /* MXNSlidingBoilerplateTests-Prefix.pch */,
+				A7F8A8401714EBFF0068F04A /* MXNKiwiRedefines.h */,
+				A7F8A8411714EBFF0068F04A /* MXNKiwiRedefines.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -353,6 +360,14 @@
 			name = Common;
 			sourceTree = "<group>";
 		};
+		A7F8A83E1714DCD90068F04A /* AppDataTests */ = {
+			isa = PBXGroup;
+			children = (
+				A7F8A83C1714DCD40068F04A /* MXNConfigurationDataSpec.m */,
+			);
+			name = AppDataTests;
+			sourceTree = "<group>";
+		};
 		A7F9FADC16DEEEF6008797E7 = {
 			isa = PBXGroup;
 			children = (
@@ -433,7 +448,6 @@
 				A75DEE6516DEF11F006019EF /* Frameworks */,
 				A75DEE6616DEF11F006019EF /* Resources */,
 				A75DEE6716DEF11F006019EF /* ShellScript */,
-				C46C57940B094E1492B527D0 /* Copy Pods Resources */,
 				15A997AEE4504F078D7DB5B5 /* Copy Pods Resources */,
 			);
 			buildRules = (
@@ -568,20 +582,6 @@
 			shellPath = /bin/sh;
 			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
 		};
-		C46C57940B094E1492B527D0 /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Pods-KMWareTests-resources.sh\"\n";
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -589,6 +589,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7F8A83F1714DE270068F04A /* MXNConfigurationData.m in Sources */,
+				A7F8A83D1714DCD40068F04A /* MXNConfigurationDataSpec.m in Sources */,
+				A7F8A8421714EBFF0068F04A /* MXNKiwiRedefines.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
