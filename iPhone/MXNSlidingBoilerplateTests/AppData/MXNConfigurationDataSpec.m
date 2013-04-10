@@ -12,7 +12,7 @@ SPEC_BEGIN(MXNConfigurationDataSpec)
 
 describe(@"MXNConfigurationData", ^{
   when(@"sharedConfiguration is called", ^{
-    it(@"should not be nil is of type MXNConfigurationData", ^{
+    it(@"should not be nil and be of type MXNConfigurationData", ^{
       MXNConfigurationData *data = [MXNConfigurationData sharedConfiguration];
       [data shouldNotBeNil];
       [[data should] beKindOfClass:[MXNConfigurationData class]];
