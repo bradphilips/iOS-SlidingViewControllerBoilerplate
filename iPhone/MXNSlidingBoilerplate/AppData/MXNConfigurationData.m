@@ -19,9 +19,11 @@
 @implementation MXNConfigurationData
 
 + (MXNConfigurationData *)sharedConfiguration {
-  DEFINE_SHARED_INSTANCE_USING_BLOCK(^{
-    return [[self alloc] init];
-  });
+  @synchronized(self) {
+    DEFINE_SHARED_INSTANCE_USING_BLOCK(^{
+      return [[self alloc] init];
+    });
+  }
 }
 
 - (id)init {
