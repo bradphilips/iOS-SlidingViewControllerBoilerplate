@@ -11,6 +11,11 @@
 SPEC_BEGIN(MXNConfigurationDataSpec)
 
 describe(@"MXNConfigurationData", ^{
+  beforeAll(^{
+    MXNConfigurationData *data = [MXNConfigurationData sharedConfiguration];
+    data.isLoggedIn = NO;
+  });
+  
   when(@"sharedConfiguration is called", ^{
     it(@"should not be nil and be of type MXNConfigurationData", ^{
       MXNConfigurationData *data = [MXNConfigurationData sharedConfiguration];
@@ -56,6 +61,11 @@ describe(@"MXNConfigurationData", ^{
       MXNConfigurationData *data = [MXNConfigurationData sharedConfiguration];
       [[data shouldNot] respondToSelector:@selector(setUrl:)];
     });
+  });
+  
+  afterAll(^{
+    MXNConfigurationData *data = [MXNConfigurationData sharedConfiguration];
+    data.isLoggedIn = NO;
   });
 });
 
