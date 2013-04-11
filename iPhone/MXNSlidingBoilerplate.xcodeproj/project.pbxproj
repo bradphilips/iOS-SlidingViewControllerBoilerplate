@@ -7,7 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		01904202e07f0264cbc5c39e /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A732436F170D05D1005AC11F /* Default@2x.png */; };
+		0194c63c741e581b19213385 /* button_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A74DD46D170D0D94007F676B /* button_bg@2x.png */; };
+		089d76c63a74469298ec5674 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A76634B316DF027500E56AB0 /* Icon@2x.png */; };
+		0f05491b70377519764c4c8a /* MXNLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A732435B170D0580005AC11F /* MXNLoginViewController.m */; };
 		12C8E5B8638549AAAA7DBC51 /* libPods-MXNSlidingBoilerplateTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 39823DE83F8F429DA8E5F251 /* libPods-MXNSlidingBoilerplateTests.a */; };
+		1b27500d079f8a1e6efae25f /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7F9FAE816DEEEF6008797E7 /* UIKit.framework */; };
+		1ba03a2a1af69e54c462d8ee /* MXNCheckedCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A732433C170D050C005AC11F /* MXNCheckedCell.m */; };
+		1bbada50ea5facdce05e41c1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A7324379170D0647005AC11F /* InfoPlist.strings */; };
+		2137f7e0646ab894e231256c /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14e6d07e8d454d821b7a3df0 /* CFNetwork.framework */; };
+		2c49a6e4232839f08ea43b6e /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = A732436E170D05D1005AC11F /* Default.png */; };
+		389dca4d77b8cadf163cf6a2 /* MXNLoginService.m in Sources */ = {isa = PBXBuildFile; fileRef = A7324330170D04EF005AC11F /* MXNLoginService.m */; };
+		41e8bbf7f8e208a9f123fc21 /* menu_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A7324362170D05AC005AC11F /* menu_icon.png */; };
+		4be5f3ed0e4b7e6ecf9407a1 /* UINavigationBar+Background.m in Sources */ = {isa = PBXBuildFile; fileRef = A7324349170D0540005AC11F /* UINavigationBar+Background.m */; };
+		4fb67072fcacc24794c3c5d3 /* MXNModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A7324327170D03F9005AC11F /* MXNModel.m */; };
+		50011ad70e4dfe04fa531423 /* MXNUser.m in Sources */ = {isa = PBXBuildFile; fileRef = A732432A170D040F005AC11F /* MXNUser.m */; };
+		5357d9a83500749690e92cd7 /* MXNSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A74DD46A170D0C29007F676B /* MXNSecondViewController.m */; };
+		54afc5ea61d7cad0b982fa93 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7F9FAEA16DEEEF6008797E7 /* Foundation.framework */; };
+		582ad533bf482b12158d8e96 /* MXNLoginRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = A7CBE63C170D07F8003FF73C /* MXNLoginRequest.m */; };
+		5bf63074b478f31358274954 /* MXNButtonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A7324336170D050C005AC11F /* MXNButtonCell.m */; };
+		5f1dd3af79122881f12d1259 /* menu_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A7324363170D05AC005AC11F /* menu_icon@2x.png */; };
+		63a27a5a53edc50be01670ea /* MXNAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A7324324170D03E6005AC11F /* MXNAppDelegate.m */; };
+		6612197033de494a1c4b182c /* MXNConfigurationData.m in Sources */ = {isa = PBXBuildFile; fileRef = A74DD460170D0A2E007F676B /* MXNConfigurationData.m */; };
+		6d5454dba328c2668f516cba /* MXNMenuView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A74DD470170D11E7007F676B /* MXNMenuView.xib */; };
+		75286cd6d7bcf1733ee84704 /* button_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = A74DD46C170D0D94007F676B /* button_bg.png */; };
+		764803be6de3258a649a6571 /* TextFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A732433E170D050C005AC11F /* TextFieldCell.m */; };
+		7d94d05f1a7b4afda5413df6 /* calabash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = dc63b304b07e8d27c94aa13d /* calabash.framework */; };
+		807e676f119ed7818d929256 /* MXNActionSheetCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A732433A170D050C005AC11F /* MXNActionSheetCell.m */; };
+		8249db00cbf11828bb823b9f /* MXNBaseService.m in Sources */ = {isa = PBXBuildFile; fileRef = A732432D170D04E4005AC11F /* MXNBaseService.m */; };
+		8fc8580337acc2fb42b0aa6d /* MXNLoginView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A732435D170D059A005AC11F /* MXNLoginView.xib */; };
+		975b26408341efd000f6a465 /* grid_tb@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A7324361170D05AC005AC11F /* grid_tb@2x.png */; };
+		9b261b8cc3f61c8077a442ac /* MXNBasePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A732434C170D0551005AC11F /* MXNBasePageViewController.m */; };
+		9ebe1ad1a53ac91df166f92b /* PageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A7324333170D050C005AC11F /* PageCell.m */; };
 		A7324325170D03E6005AC11F /* MXNAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A7324324170D03E6005AC11F /* MXNAppDelegate.m */; };
 		A7324328170D03F9005AC11F /* MXNModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A7324327170D03F9005AC11F /* MXNModel.m */; };
 		A732432B170D040F005AC11F /* MXNUser.m in Sources */ = {isa = PBXBuildFile; fileRef = A732432A170D040F005AC11F /* MXNUser.m */; };
@@ -39,7 +70,6 @@
 		A732437B170D0647005AC11F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A7324379170D0647005AC11F /* InfoPlist.strings */; };
 		A74DD45D170D099C007F676B /* MXNMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A74DD45C170D099C007F676B /* MXNMainViewController.m */; };
 		A74DD461170D0A2E007F676B /* MXNConfigurationData.m in Sources */ = {isa = PBXBuildFile; fileRef = A74DD460170D0A2E007F676B /* MXNConfigurationData.m */; };
-		A74DD462170D0B22007F676B /* MXNSlidingBoilerplate-Prefix.pch in Resources */ = {isa = PBXBuildFile; fileRef = A732436A170D05C2005AC11F /* MXNSlidingBoilerplate-Prefix.pch */; };
 		A74DD465170D0B93007F676B /* MXNMainView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A74DD463170D0B93007F676B /* MXNMainView.xib */; };
 		A74DD468170D0BCB007F676B /* MXNSecondView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A74DD466170D0BCB007F676B /* MXNSecondView.xib */; };
 		A74DD46B170D0C29007F676B /* MXNSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A74DD46A170D0C29007F676B /* MXNSecondViewController.m */; };
@@ -51,6 +81,7 @@
 		A75DEE6D16DEF11F006019EF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7F9FAEA16DEEEF6008797E7 /* Foundation.framework */; };
 		A76634B216DF026B00E56AB0 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A76634B116DF026B00E56AB0 /* Icon.png */; };
 		A76634B416DF027500E56AB0 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A76634B316DF027500E56AB0 /* Icon@2x.png */; };
+		A78A608F1715A60D0062F74B /* MXNSlidingBoilerplate-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A78A608D1715A60D0062F74B /* MXNSlidingBoilerplate-Info.plist */; };
 		A7CBE63D170D07F8003FF73C /* MXNLoginRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = A7CBE63C170D07F8003FF73C /* MXNLoginRequest.m */; };
 		A7F8A83D1714DCD40068F04A /* MXNConfigurationDataSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = A7F8A83C1714DCD40068F04A /* MXNConfigurationDataSpec.m */; };
 		A7F8A83F1714DE270068F04A /* MXNConfigurationData.m in Sources */ = {isa = PBXBuildFile; fileRef = A74DD460170D0A2E007F676B /* MXNConfigurationData.m */; };
@@ -59,11 +90,28 @@
 		A7F9FAEB16DEEEF6008797E7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7F9FAEA16DEEEF6008797E7 /* Foundation.framework */; };
 		A7F9FAED16DEEEF6008797E7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7F9FAEC16DEEEF6008797E7 /* CoreGraphics.framework */; };
 		B7505D7B210445B792FCD718 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC08F2C25E594111B1235885 /* libPods.a */; };
+		acaf8ffaa3340daea8b936ac /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC08F2C25E594111B1235885 /* libPods.a */; };
+		b0dce458b92dbfddd66f756a /* MXNSlideNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7324354170D0562005AC11F /* MXNSlideNavigationController.m */; };
+		b704ec2adb917bbd8410b2a6 /* LabelCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A7324338170D050C005AC11F /* LabelCell.m */; };
+		bb93642b5d5ad9360ea306c0 /* MXNMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7324352170D0562005AC11F /* MXNMenuViewController.m */; };
+		bdb97a93ebbfd4316bb2bc9e /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7F9FAEC16DEEEF6008797E7 /* CoreGraphics.framework */; };
+		c2132db4b4f86bd3ca8e09bd /* grid_tb.png in Resources */ = {isa = PBXBuildFile; fileRef = A7324360170D05AC005AC11F /* grid_tb.png */; };
+		c34e1524b48ee6a4bbb19f7a /* MXNSecondView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A74DD466170D0BCB007F676B /* MXNSecondView.xib */; };
+		d060237b16b7c4d512b6a83f /* MXNMainView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A74DD463170D0B93007F676B /* MXNMainView.xib */; };
+		d2a4feb21d420379da28512f /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A732436D170D05D1005AC11F /* Default-568h@2x.png */; };
+		da8c09e5939bc9ca7dfe8608 /* PageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7324340170D050C005AC11F /* PageViewController.m */; };
+		dc232e8ed38456fbfadfd255 /* MXNMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A74DD45C170D099C007F676B /* MXNMainViewController.m */; };
+		e8c6491574a63537eb47c192 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A7324373170D05F4005AC11F /* InfoPlist.strings */; };
+		f0bffb2c859e87363b5ff6e2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A7324368170D05C2005AC11F /* main.m */; };
+		f44988af20e607aabc3d8f59 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A76634B116DF026B00E56AB0 /* Icon.png */; };
+		f678ed3737a73f2bbe5a5eaf /* MXNBaseSlideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A732434E170D0551005AC11F /* MXNBaseSlideViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		14e6d07e8d454d821b7a3df0 /* CFNetwork.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		39823DE83F8F429DA8E5F251 /* libPods-MXNSlidingBoilerplateTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MXNSlidingBoilerplateTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		653FD85E6491444689F20F02 /* Pods-MXNSlidingBoilerplateTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MXNSlidingBoilerplateTests.xcconfig"; path = "Pods/Pods-MXNSlidingBoilerplateTests.xcconfig"; sourceTree = SOURCE_ROOT; };
+		A70C306E1716015A0045A6C5 /* MXNSlidingBoilerplateTests-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "MXNSlidingBoilerplateTests-Info.plist"; sourceTree = "<group>"; };
 		A7324323170D03E6005AC11F /* MXNAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MXNAppDelegate.h; path = MXNSlidingBoilerplate/MXNAppDelegate.h; sourceTree = SOURCE_ROOT; };
 		A7324324170D03E6005AC11F /* MXNAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MXNAppDelegate.m; path = MXNSlidingBoilerplate/MXNAppDelegate.m; sourceTree = SOURCE_ROOT; };
 		A7324326170D03F9005AC11F /* MXNModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MXNModel.h; path = MXNSlidingBoilerplate/Models/Common/MXNModel.h; sourceTree = SOURCE_ROOT; };
@@ -106,14 +154,10 @@
 		A7324362170D05AC005AC11F /* menu_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = menu_icon.png; path = MXNSlidingBoilerplate/Resources/Images/menu_icon.png; sourceTree = SOURCE_ROOT; };
 		A7324363170D05AC005AC11F /* menu_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "menu_icon@2x.png"; path = "MXNSlidingBoilerplate/Resources/Images/menu_icon@2x.png"; sourceTree = SOURCE_ROOT; };
 		A7324368170D05C2005AC11F /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = MXNSlidingBoilerplate/main.m; sourceTree = SOURCE_ROOT; };
-		A7324369170D05C2005AC11F /* MXNSlidingBoilerplate-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "MXNSlidingBoilerplate-Info.plist"; path = "MXNSlidingBoilerplate/MXNSlidingBoilerplate-Info.plist"; sourceTree = SOURCE_ROOT; };
-		A732436A170D05C2005AC11F /* MXNSlidingBoilerplate-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "MXNSlidingBoilerplate-Prefix.pch"; path = "MXNSlidingBoilerplate/MXNSlidingBoilerplate-Prefix.pch"; sourceTree = SOURCE_ROOT; };
 		A732436D170D05D1005AC11F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "MXNSlidingBoilerplate/Default-568h@2x.png"; sourceTree = SOURCE_ROOT; };
 		A732436E170D05D1005AC11F /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = MXNSlidingBoilerplate/Default.png; sourceTree = SOURCE_ROOT; };
 		A732436F170D05D1005AC11F /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "MXNSlidingBoilerplate/Default@2x.png"; sourceTree = SOURCE_ROOT; };
 		A7324374170D05F4005AC11F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = MXNSlidingBoilerplate/en.lproj/InfoPlist.strings; sourceTree = SOURCE_ROOT; };
-		A7324376170D061C005AC11F /* MXNSlidingBoilerplateTests-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "MXNSlidingBoilerplateTests-Info.plist"; path = "MXNSlidingBoilerplateTests/MXNSlidingBoilerplateTests-Info.plist"; sourceTree = SOURCE_ROOT; };
-		A7324377170D061C005AC11F /* MXNSlidingBoilerplateTests-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "MXNSlidingBoilerplateTests-Prefix.pch"; path = "MXNSlidingBoilerplateTests/MXNSlidingBoilerplateTests-Prefix.pch"; sourceTree = SOURCE_ROOT; };
 		A732437A170D0647005AC11F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = MXNSlidingBoilerplateTests/en.lproj/InfoPlist.strings; sourceTree = SOURCE_ROOT; };
 		A74DD45B170D099C007F676B /* MXNMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MXNMainViewController.h; path = MXNSlidingBoilerplate/ViewControllers/MXNMainViewController.h; sourceTree = SOURCE_ROOT; };
 		A74DD45C170D099C007F676B /* MXNMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MXNMainViewController.m; path = MXNSlidingBoilerplate/ViewControllers/MXNMainViewController.m; sourceTree = SOURCE_ROOT; };
@@ -130,6 +174,10 @@
 		A75DEE6A16DEF11F006019EF /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		A76634B116DF026B00E56AB0 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 		A76634B316DF027500E56AB0 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		A78A60891715A4660062F74B /* MXNSlidingBoilerplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MXNSlidingBoilerplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A78A608B1715A5D60062F74B /* MXNSlidingBoilerplateTests-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MXNSlidingBoilerplateTests-Prefix.pch"; sourceTree = "<group>"; };
+		A78A608D1715A60D0062F74B /* MXNSlidingBoilerplate-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "MXNSlidingBoilerplate-Info.plist"; sourceTree = "<group>"; };
+		A78A608E1715A60D0062F74B /* MXNSlidingBoilerplate-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MXNSlidingBoilerplate-Prefix.pch"; sourceTree = "<group>"; };
 		A7CBE63B170D07F8003FF73C /* MXNLoginRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MXNLoginRequest.h; path = MXNSlidingBoilerplate/Models/MXNLoginRequest.h; sourceTree = SOURCE_ROOT; };
 		A7CBE63C170D07F8003FF73C /* MXNLoginRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MXNLoginRequest.m; path = MXNSlidingBoilerplate/Models/MXNLoginRequest.m; sourceTree = SOURCE_ROOT; };
 		A7F8A83C1714DCD40068F04A /* MXNConfigurationDataSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MXNConfigurationDataSpec.m; path = MXNSlidingBoilerplateTests/AppData/MXNConfigurationDataSpec.m; sourceTree = SOURCE_ROOT; };
@@ -139,12 +187,25 @@
 		A7F9FAE816DEEEF6008797E7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A7F9FAEA16DEEEF6008797E7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A7F9FAEC16DEEEF6008797E7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		E71FE160065E4B42B18EF7E6 /* libPods-KMWareTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KMWareTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC08F2C25E594111B1235885 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1F5F1A82BC1418F95B00759 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+		dc63b304b07e8d27c94aa13d /* calabash.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; path = calabash.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		0ef54432a4cb5e0d6774f401 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1b27500d079f8a1e6efae25f /* UIKit.framework in Frameworks */,
+				54afc5ea61d7cad0b982fa93 /* Foundation.framework in Frameworks */,
+				bdb97a93ebbfd4316bb2bc9e /* CoreGraphics.framework in Frameworks */,
+				acaf8ffaa3340daea8b936ac /* libPods.a in Frameworks */,
+				2137f7e0646ab894e231256c /* CFNetwork.framework in Frameworks */,
+				7d94d05f1a7b4afda5413df6 /* calabash.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A75DEE6516DEF11F006019EF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -204,16 +265,15 @@
 				A75DEE6F16DEF11F006019EF /* Supporting Files */,
 				A7F8A83E1714DCD90068F04A /* AppDataTests */,
 			);
-			name = MXNSlidingBoilerplateTests;
-			path = KMWareTests;
+			path = MXNSlidingBoilerplateTests;
 			sourceTree = "<group>";
 		};
 		A75DEE6F16DEF11F006019EF /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A70C306E1716015A0045A6C5 /* MXNSlidingBoilerplateTests-Info.plist */,
+				A78A608B1715A5D60062F74B /* MXNSlidingBoilerplateTests-Prefix.pch */,
 				A7324379170D0647005AC11F /* InfoPlist.strings */,
-				A7324376170D061C005AC11F /* MXNSlidingBoilerplateTests-Info.plist */,
-				A7324377170D061C005AC11F /* MXNSlidingBoilerplateTests-Prefix.pch */,
 				A7F8A8401714EBFF0068F04A /* MXNKiwiRedefines.h */,
 				A7F8A8411714EBFF0068F04A /* MXNKiwiRedefines.m */,
 			);
@@ -387,6 +447,7 @@
 			children = (
 				A7F9FAE516DEEEF6008797E7 /* MXNSlidingBoilerplate.app */,
 				A75DEE6916DEF11F006019EF /* MXNSlidingBoilerplateTests.octest */,
+				A78A60891715A4660062F74B /* MXNSlidingBoilerplate.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -399,8 +460,9 @@
 				A7F9FAEC16DEEEF6008797E7 /* CoreGraphics.framework */,
 				EC08F2C25E594111B1235885 /* libPods.a */,
 				A75DEE6A16DEF11F006019EF /* SenTestingKit.framework */,
-				E71FE160065E4B42B18EF7E6 /* libPods-KMWareTests.a */,
 				39823DE83F8F429DA8E5F251 /* libPods-MXNSlidingBoilerplateTests.a */,
+				14e6d07e8d454d821b7a3df0 /* CFNetwork.framework */,
+				dc63b304b07e8d27c94aa13d /* calabash.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -419,20 +481,19 @@
 				A75DEE7F16DEF71A006019EF /* Resources */,
 				A7F9FAEF16DEEEF6008797E7 /* Supporting Files */,
 			);
-			name = MXNSlidingBoilerplate;
-			path = KMWareApp;
+			path = MXNSlidingBoilerplate;
 			sourceTree = "<group>";
 		};
 		A7F9FAEF16DEEEF6008797E7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A78A608D1715A60D0062F74B /* MXNSlidingBoilerplate-Info.plist */,
+				A78A608E1715A60D0062F74B /* MXNSlidingBoilerplate-Prefix.pch */,
 				A7324373170D05F4005AC11F /* InfoPlist.strings */,
 				A732436D170D05D1005AC11F /* Default-568h@2x.png */,
 				A732436E170D05D1005AC11F /* Default.png */,
 				A732436F170D05D1005AC11F /* Default@2x.png */,
 				A7324368170D05C2005AC11F /* main.m */,
-				A7324369170D05C2005AC11F /* MXNSlidingBoilerplate-Info.plist */,
-				A732436A170D05C2005AC11F /* MXNSlidingBoilerplate-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -455,7 +516,7 @@
 			dependencies = (
 			);
 			name = MXNSlidingBoilerplateTests;
-			productName = KMWareTests;
+			productName = MXNSlidingBoilerplateTests;
 			productReference = A75DEE6916DEF11F006019EF /* MXNSlidingBoilerplateTests.octest */;
 			productType = "com.apple.product-type.bundle";
 		};
@@ -473,8 +534,26 @@
 			dependencies = (
 			);
 			name = MXNSlidingBoilerplate;
-			productName = KMWareApp;
+			productName = MXNSlidingBoilerplate;
 			productReference = A7F9FAE516DEEEF6008797E7 /* MXNSlidingBoilerplate.app */;
+			productType = "com.apple.product-type.application";
+		};
+		b51c6341be7f2a72a0d52ce0 /* MXNSlidingBoilerplate-cal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25bda1e552422c071c2afd58 /* Build configuration list for PBXNativeTarget "MXNSlidingBoilerplate-cal" */;
+			buildPhases = (
+				3c470df7b8401cd0205b26f4 /* Sources */,
+				0ef54432a4cb5e0d6774f401 /* Frameworks */,
+				4c817dca648b47b5ebd3b35a /* Resources */,
+				8d73c5cdf213e0265aa11d72 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MXNSlidingBoilerplate-cal";
+			productName = "MXNSlidingBoilerplate-cal";
+			productReference = A78A60891715A4660062F74B /* MXNSlidingBoilerplate.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -501,11 +580,36 @@
 			targets = (
 				A7F9FAE416DEEEF6008797E7 /* MXNSlidingBoilerplate */,
 				A75DEE6816DEF11F006019EF /* MXNSlidingBoilerplateTests */,
+				b51c6341be7f2a72a0d52ce0 /* MXNSlidingBoilerplate-cal */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		4c817dca648b47b5ebd3b35a /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				f44988af20e607aabc3d8f59 /* Icon.png in Resources */,
+				089d76c63a74469298ec5674 /* Icon@2x.png in Resources */,
+				8fc8580337acc2fb42b0aa6d /* MXNLoginView.xib in Resources */,
+				c2132db4b4f86bd3ca8e09bd /* grid_tb.png in Resources */,
+				975b26408341efd000f6a465 /* grid_tb@2x.png in Resources */,
+				41e8bbf7f8e208a9f123fc21 /* menu_icon.png in Resources */,
+				5f1dd3af79122881f12d1259 /* menu_icon@2x.png in Resources */,
+				d2a4feb21d420379da28512f /* Default-568h@2x.png in Resources */,
+				2c49a6e4232839f08ea43b6e /* Default.png in Resources */,
+				01904202e07f0264cbc5c39e /* Default@2x.png in Resources */,
+				e8c6491574a63537eb47c192 /* InfoPlist.strings in Resources */,
+				1bbada50ea5facdce05e41c1 /* InfoPlist.strings in Resources */,
+				d060237b16b7c4d512b6a83f /* MXNMainView.xib in Resources */,
+				c34e1524b48ee6a4bbb19f7a /* MXNSecondView.xib in Resources */,
+				75286cd6d7bcf1733ee84704 /* button_bg.png in Resources */,
+				0194c63c741e581b19213385 /* button_bg@2x.png in Resources */,
+				6d5454dba328c2668f516cba /* MXNMenuView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A75DEE6616DEF11F006019EF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -517,7 +621,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A74DD462170D0B22007F676B /* MXNSlidingBoilerplate-Prefix.pch in Resources */,
 				A76634B216DF026B00E56AB0 /* Icon.png in Resources */,
 				A76634B416DF027500E56AB0 /* Icon@2x.png in Resources */,
 				A732435F170D059A005AC11F /* MXNLoginView.xib in Resources */,
@@ -535,6 +638,7 @@
 				A74DD46E170D0D94007F676B /* button_bg.png in Resources */,
 				A74DD46F170D0D94007F676B /* button_bg@2x.png in Resources */,
 				A74DD472170D11E7007F676B /* MXNMenuView.xib in Resources */,
+				A78A608F1715A60D0062F74B /* MXNSlidingBoilerplate-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -554,6 +658,20 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Pods-MXNSlidingBoilerplateTests-resources.sh\"\n";
+		};
+		8d73c5cdf213e0265aa11d72 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
 		};
 		929824B5A5BF4EAA9EE79C14 /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -585,6 +703,36 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		3c470df7b8401cd0205b26f4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63a27a5a53edc50be01670ea /* MXNAppDelegate.m in Sources */,
+				4fb67072fcacc24794c3c5d3 /* MXNModel.m in Sources */,
+				50011ad70e4dfe04fa531423 /* MXNUser.m in Sources */,
+				8249db00cbf11828bb823b9f /* MXNBaseService.m in Sources */,
+				389dca4d77b8cadf163cf6a2 /* MXNLoginService.m in Sources */,
+				9ebe1ad1a53ac91df166f92b /* PageCell.m in Sources */,
+				5bf63074b478f31358274954 /* MXNButtonCell.m in Sources */,
+				b704ec2adb917bbd8410b2a6 /* LabelCell.m in Sources */,
+				807e676f119ed7818d929256 /* MXNActionSheetCell.m in Sources */,
+				1ba03a2a1af69e54c462d8ee /* MXNCheckedCell.m in Sources */,
+				764803be6de3258a649a6571 /* TextFieldCell.m in Sources */,
+				da8c09e5939bc9ca7dfe8608 /* PageViewController.m in Sources */,
+				4be5f3ed0e4b7e6ecf9407a1 /* UINavigationBar+Background.m in Sources */,
+				9b261b8cc3f61c8077a442ac /* MXNBasePageViewController.m in Sources */,
+				f678ed3737a73f2bbe5a5eaf /* MXNBaseSlideViewController.m in Sources */,
+				bb93642b5d5ad9360ea306c0 /* MXNMenuViewController.m in Sources */,
+				b0dce458b92dbfddd66f756a /* MXNSlideNavigationController.m in Sources */,
+				0f05491b70377519764c4c8a /* MXNLoginViewController.m in Sources */,
+				f0bffb2c859e87363b5ff6e2 /* main.m in Sources */,
+				582ad533bf482b12158d8e96 /* MXNLoginRequest.m in Sources */,
+				dc232e8ed38456fbfadfd255 /* MXNMainViewController.m in Sources */,
+				6612197033de494a1c4b182c /* MXNConfigurationData.m in Sources */,
+				5357d9a83500749690e92cd7 /* MXNSecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A75DEE6416DEF11F006019EF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -679,6 +827,29 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		84fdc00758ed735ec5e7af9a /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1F5F1A82BC1418F95B00759 /* Pods.xcconfig */;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MXNSlidingBoilerplate/MXNSlidingBoilerplate-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/MXNSlidingBoilerplate/MXNSlidingBoilerplate-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-force_load",
+					"\"$(SRCROOT)/calabash.framework/calabash\"",
+					"-lstdc++",
+				);
+				PRODUCT_NAME = MXNSlidingBoilerplate;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
 		A75DEE7916DEF11F006019EF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 653FD85E6491444689F20F02 /* Pods-MXNSlidingBoilerplateTests.xcconfig */;
@@ -689,8 +860,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MXNSlidingBoilerplateTests/MXNSlidingBoilerplateTests-Prefix.pch";
-				INFOPLIST_FILE = "MXNSlidingBoilerplateTests/MXNSlidingBoilerplateTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "$(SRCROOT)/MXNSlidingBoilerplateTests/MXNSlidingBoilerplateTests-Info.plist";
+				PRODUCT_NAME = MXNSlidingBoilerplateTests;
 				WRAPPER_EXTENSION = octest;
 			};
 			name = Debug;
@@ -705,8 +876,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MXNSlidingBoilerplateTests/MXNSlidingBoilerplateTests-Prefix.pch";
-				INFOPLIST_FILE = "MXNSlidingBoilerplateTests/MXNSlidingBoilerplateTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "$(SRCROOT)/MXNSlidingBoilerplateTests/MXNSlidingBoilerplateTests-Info.plist";
+				PRODUCT_NAME = MXNSlidingBoilerplateTests;
 				WRAPPER_EXTENSION = octest;
 			};
 			name = Release;
@@ -736,7 +907,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -760,7 +931,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -773,7 +944,7 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MXNSlidingBoilerplate/MXNSlidingBoilerplate-Prefix.pch";
-				INFOPLIST_FILE = "MXNSlidingBoilerplate/MXNSlidingBoilerplate-Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/MXNSlidingBoilerplate/MXNSlidingBoilerplate-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = MXNSlidingBoilerplate;
 				WRAPPER_EXTENSION = app;
@@ -786,16 +957,48 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MXNSlidingBoilerplate/MXNSlidingBoilerplate-Prefix.pch";
-				INFOPLIST_FILE = "MXNSlidingBoilerplate/MXNSlidingBoilerplate-Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/MXNSlidingBoilerplate/MXNSlidingBoilerplate-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = MXNSlidingBoilerplate;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
 		};
+		da9774d9b7b13d8e9779c8ee /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1F5F1A82BC1418F95B00759 /* Pods.xcconfig */;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MXNSlidingBoilerplate/MXNSlidingBoilerplate-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/MXNSlidingBoilerplate/MXNSlidingBoilerplate-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-force_load",
+					"\"$(SRCROOT)/calabash.framework/calabash\"",
+					"-lstdc++",
+				);
+				PRODUCT_NAME = MXNSlidingBoilerplate;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		25bda1e552422c071c2afd58 /* Build configuration list for PBXNativeTarget "MXNSlidingBoilerplate-cal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				da9774d9b7b13d8e9779c8ee /* Debug */,
+				84fdc00758ed735ec5e7af9a /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		A75DEE7816DEF11F006019EF /* Build configuration list for PBXNativeTarget "MXNSlidingBoilerplateTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

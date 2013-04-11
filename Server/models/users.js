@@ -9,16 +9,15 @@ var users = [
 
 var passwords = [
   { id: 1, password: 'e4b2a5325a59f857fa7881970ccc878cb9b2af70', salt: '486583348139' },
-  { id: 2, password: '1cc283d5f47b4738a9654eb98344a4b23e63c757', salt: '999010479633' },
-]
+  { id: 2, password: '1cc283d5f47b4738a9654eb98344a4b23e63c757', salt: '999010479633' }
+];
 
 function makeSalt() {
   return Math.round((new Date().valueOf() * Math.random())) + '';
 }
 
 function encryptPassword(password, salt) {
-  var password = crypto.createHmac('sha1', salt).update(password).digest('hex');
-  return password;
+  return crypto.createHmac('sha1', salt).update(password).digest('hex');
 }
 
 function findById(id, done) {
@@ -28,7 +27,7 @@ function findById(id, done) {
   } else {
     done(new Error('User ' + id + ' does not exist'));
   }
-};
+}
 
 function findByUsername(username, done) {
   for (var i = 0, len = users.length; i < len; i++) {
@@ -38,7 +37,7 @@ function findByUsername(username, done) {
     }
   }
   return done(null, null);
-};
+}
 
 function getPasswordForUserId(id, done) {
   for (var i = 0, len = users.length; i < len; i++) {

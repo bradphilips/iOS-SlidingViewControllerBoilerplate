@@ -7,7 +7,7 @@ var passport = require('passport'),
 
 exports.login = function(req, res, next) {
   passport.authenticate('local', function(err, user, info) {
-    if (err) { return next(err) }
+    if (err) { return next(err); }
     if (!user) {
       return res.send(401);
     }
@@ -20,5 +20,5 @@ exports.login = function(req, res, next) {
 
 exports.logout = function(req, res) {
   req.logout();
-  res.json({ "message": { "description": "User is logged out." }})
+  res.json({ "message": { "description": "User is logged out." }});
 };

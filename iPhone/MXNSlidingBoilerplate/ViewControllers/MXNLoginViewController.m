@@ -134,6 +134,11 @@
 #pragma mark - Actions
 
 - (IBAction)loginClicked:(id)sender {
+  UITextField *username = (UITextField *)[self.view viewWithTag:USERNAME_TEXT_FIELD];
+  UITextField *password = (UITextField *)[self.view viewWithTag:PASSWORD_TEXT_FIELD];
+  _loginRequest.username = username.text;
+  _loginRequest.password = password.text;
+  
   if (![self validateModel]) {
     return;
   }
