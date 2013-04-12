@@ -81,7 +81,12 @@
 		A75DEE6D16DEF11F006019EF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7F9FAEA16DEEEF6008797E7 /* Foundation.framework */; };
 		A76634B216DF026B00E56AB0 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A76634B116DF026B00E56AB0 /* Icon.png */; };
 		A76634B416DF027500E56AB0 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A76634B316DF027500E56AB0 /* Icon@2x.png */; };
-		A78A608F1715A60D0062F74B /* MXNSlidingBoilerplate-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A78A608D1715A60D0062F74B /* MXNSlidingBoilerplate-Info.plist */; };
+		A7A480D11717895700E2A6C2 /* MXNLoginRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = A7CBE63C170D07F8003FF73C /* MXNLoginRequest.m */; };
+		A7A480D21717895700E2A6C2 /* MXNLoginService.m in Sources */ = {isa = PBXBuildFile; fileRef = A7324330170D04EF005AC11F /* MXNLoginService.m */; };
+		A7A480D31717896D00E2A6C2 /* MXNUser.m in Sources */ = {isa = PBXBuildFile; fileRef = A732432A170D040F005AC11F /* MXNUser.m */; };
+		A7A480D41717896D00E2A6C2 /* MXNBaseService.m in Sources */ = {isa = PBXBuildFile; fileRef = A732432D170D04E4005AC11F /* MXNBaseService.m */; };
+		A7A480D51717897400E2A6C2 /* MXNModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A7324327170D03F9005AC11F /* MXNModel.m */; };
+		A7A480D917178EF500E2A6C2 /* MXNLoginServiceSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = A771624417175F9700499F3F /* MXNLoginServiceSpec.m */; };
 		A7CBE63D170D07F8003FF73C /* MXNLoginRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = A7CBE63C170D07F8003FF73C /* MXNLoginRequest.m */; };
 		A7F8A83D1714DCD40068F04A /* MXNConfigurationDataSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = A7F8A83C1714DCD40068F04A /* MXNConfigurationDataSpec.m */; };
 		A7F8A83F1714DE270068F04A /* MXNConfigurationData.m in Sources */ = {isa = PBXBuildFile; fileRef = A74DD460170D0A2E007F676B /* MXNConfigurationData.m */; };
@@ -174,6 +179,7 @@
 		A75DEE6A16DEF11F006019EF /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		A76634B116DF026B00E56AB0 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 		A76634B316DF027500E56AB0 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		A771624417175F9700499F3F /* MXNLoginServiceSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXNLoginServiceSpec.m; sourceTree = "<group>"; };
 		A78A60891715A4660062F74B /* MXNSlidingBoilerplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MXNSlidingBoilerplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A78A608B1715A5D60062F74B /* MXNSlidingBoilerplateTests-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MXNSlidingBoilerplateTests-Prefix.pch"; sourceTree = "<group>"; };
 		A78A608D1715A60D0062F74B /* MXNSlidingBoilerplate-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "MXNSlidingBoilerplate-Info.plist"; sourceTree = "<group>"; };
@@ -262,8 +268,9 @@
 		A75DEE6E16DEF11F006019EF /* MXNSlidingBoilerplateTests */ = {
 			isa = PBXGroup;
 			children = (
-				A75DEE6F16DEF11F006019EF /* Supporting Files */,
 				A7F8A83E1714DCD90068F04A /* AppDataTests */,
+				A771624317175F9700499F3F /* Services */,
+				A75DEE6F16DEF11F006019EF /* Supporting Files */,
 			);
 			path = MXNSlidingBoilerplateTests;
 			sourceTree = "<group>";
@@ -335,6 +342,14 @@
 				A7324349170D0540005AC11F /* UINavigationBar+Background.m */,
 			);
 			name = Utilities;
+			sourceTree = "<group>";
+		};
+		A771624317175F9700499F3F /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				A771624417175F9700499F3F /* MXNLoginServiceSpec.m */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 		A79268EC16F94F5B00F11B78 /* Common */ = {
@@ -638,7 +653,6 @@
 				A74DD46E170D0D94007F676B /* button_bg.png in Resources */,
 				A74DD46F170D0D94007F676B /* button_bg@2x.png in Resources */,
 				A74DD472170D11E7007F676B /* MXNMenuView.xib in Resources */,
-				A78A608F1715A60D0062F74B /* MXNSlidingBoilerplate-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -737,6 +751,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7A480D917178EF500E2A6C2 /* MXNLoginServiceSpec.m in Sources */,
+				A7A480D51717897400E2A6C2 /* MXNModel.m in Sources */,
+				A7A480D31717896D00E2A6C2 /* MXNUser.m in Sources */,
+				A7A480D41717896D00E2A6C2 /* MXNBaseService.m in Sources */,
+				A7A480D11717895700E2A6C2 /* MXNLoginRequest.m in Sources */,
+				A7A480D21717895700E2A6C2 /* MXNLoginService.m in Sources */,
 				A7F8A83F1714DE270068F04A /* MXNConfigurationData.m in Sources */,
 				A7F8A83D1714DCD40068F04A /* MXNConfigurationDataSpec.m in Sources */,
 				A7F8A8421714EBFF0068F04A /* MXNKiwiRedefines.m in Sources */,
@@ -861,6 +881,15 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MXNSlidingBoilerplateTests/MXNSlidingBoilerplateTests-Prefix.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/MXNSlidingBoilerplateTests/MXNSlidingBoilerplateTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-framework",
+					SenTestingKit,
+					"-framework",
+					CoreGraphics,
+					"-framework",
+					SystemConfiguration,
+				);
 				PRODUCT_NAME = MXNSlidingBoilerplateTests;
 				WRAPPER_EXTENSION = octest;
 			};
@@ -877,6 +906,15 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MXNSlidingBoilerplateTests/MXNSlidingBoilerplateTests-Prefix.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/MXNSlidingBoilerplateTests/MXNSlidingBoilerplateTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-framework",
+					SenTestingKit,
+					"-framework",
+					CoreGraphics,
+					"-framework",
+					SystemConfiguration,
+				);
 				PRODUCT_NAME = MXNSlidingBoilerplateTests;
 				WRAPPER_EXTENSION = octest;
 			};

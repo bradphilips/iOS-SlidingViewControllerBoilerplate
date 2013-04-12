@@ -1,6 +1,5 @@
 platform :ios, '4.3'
 pod 'JSONKit',                 '~> 1.4'
-pod 'Objection',               '~> 0.15'
 pod 'Reachability',            '~> 3.0.0'
 pod 'AFNetworking',            '~> 0.10'
 pod 'DCKeyValueObjectMapping', '= 1.1'
@@ -8,6 +7,6 @@ pod 'MBProgressHUD',           '~> 0.5'
 pod 'ActionSheetPicker',       '~> 0.0'
 pod 'ECSlidingViewController', '~> 0.9.0'
 
-target :MXNSlidingBoilerplateTests, :exclusive => true do
+target :MXNSlidingBoilerplateTests do
   pod 'Kiwi'
 end
