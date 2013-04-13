@@ -88,6 +88,7 @@
 		A7A480D51717897400E2A6C2 /* MXNModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A7324327170D03F9005AC11F /* MXNModel.m */; };
 		A7A480D917178EF500E2A6C2 /* MXNLoginServiceSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = A771624417175F9700499F3F /* MXNLoginServiceSpec.m */; };
 		A7CBE63D170D07F8003FF73C /* MXNLoginRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = A7CBE63C170D07F8003FF73C /* MXNLoginRequest.m */; };
+		A7EB343F1719CA63006815D6 /* MXNValueLabelCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A7EB343E1719CA63006815D6 /* MXNValueLabelCell.m */; };
 		A7F8A83D1714DCD40068F04A /* MXNConfigurationDataSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = A7F8A83C1714DCD40068F04A /* MXNConfigurationDataSpec.m */; };
 		A7F8A83F1714DE270068F04A /* MXNConfigurationData.m in Sources */ = {isa = PBXBuildFile; fileRef = A74DD460170D0A2E007F676B /* MXNConfigurationData.m */; };
 		A7F8A8421714EBFF0068F04A /* MXNKiwiRedefines.m in Sources */ = {isa = PBXBuildFile; fileRef = A7F8A8411714EBFF0068F04A /* MXNKiwiRedefines.m */; };
@@ -186,6 +187,8 @@
 		A78A608E1715A60D0062F74B /* MXNSlidingBoilerplate-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MXNSlidingBoilerplate-Prefix.pch"; sourceTree = "<group>"; };
 		A7CBE63B170D07F8003FF73C /* MXNLoginRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MXNLoginRequest.h; path = MXNSlidingBoilerplate/Models/MXNLoginRequest.h; sourceTree = SOURCE_ROOT; };
 		A7CBE63C170D07F8003FF73C /* MXNLoginRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MXNLoginRequest.m; path = MXNSlidingBoilerplate/Models/MXNLoginRequest.m; sourceTree = SOURCE_ROOT; };
+		A7EB343D1719CA63006815D6 /* MXNValueLabelCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXNValueLabelCell.h; sourceTree = "<group>"; };
+		A7EB343E1719CA63006815D6 /* MXNValueLabelCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXNValueLabelCell.m; sourceTree = "<group>"; };
 		A7F8A83C1714DCD40068F04A /* MXNConfigurationDataSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MXNConfigurationDataSpec.m; path = MXNSlidingBoilerplateTests/AppData/MXNConfigurationDataSpec.m; sourceTree = SOURCE_ROOT; };
 		A7F8A8401714EBFF0068F04A /* MXNKiwiRedefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MXNKiwiRedefines.h; path = MXNSlidingBoilerplateTests/MXNKiwiRedefines.h; sourceTree = SOURCE_ROOT; };
 		A7F8A8411714EBFF0068F04A /* MXNKiwiRedefines.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MXNKiwiRedefines.m; path = MXNSlidingBoilerplateTests/MXNKiwiRedefines.m; sourceTree = SOURCE_ROOT; };
@@ -240,6 +243,8 @@
 		A7324334170D050C005AC11F /* PageViewCells */ = {
 			isa = PBXGroup;
 			children = (
+				A7EB343D1719CA63006815D6 /* MXNValueLabelCell.h */,
+				A7EB343E1719CA63006815D6 /* MXNValueLabelCell.m */,
 				A7324335170D050C005AC11F /* MXNButtonCell.h */,
 				A7324336170D050C005AC11F /* MXNButtonCell.m */,
 				A7324337170D050C005AC11F /* LabelCell.h */,
@@ -790,6 +795,7 @@
 				A74DD45D170D099C007F676B /* MXNMainViewController.m in Sources */,
 				A74DD461170D0A2E007F676B /* MXNConfigurationData.m in Sources */,
 				A74DD46B170D0C29007F676B /* MXNSecondViewController.m in Sources */,
+				A7EB343F1719CA63006815D6 /* MXNValueLabelCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
